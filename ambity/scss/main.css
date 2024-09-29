@@ -1,0 +1,411 @@
+.header {
+  background-image: url(../img/banner.png);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 620px;
+}
+.header .container-fluid {
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+.header .navbar-brand {
+  font-family: "Montserrat", system-ui;
+  font-weight: bold;
+  font-size: 37px;
+  margin: 0;
+  align-items: start;
+  z-index: 2;
+}
+.header .navbar-brand:hover {
+  opacity: 0.7;
+}
+.header .rectangle {
+  width: 90px;
+  height: 7px;
+  background: #ff4a40;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 20px;
+  z-index: 1;
+}
+.header .navbar-nav {
+  font-family: "Open Sans", system-ui;
+  font-size: 16px;
+  display: flex;
+  gap: 30px;
+  white-space: nowrap;
+  z-index: 5;
+}
+.header .nav-link:hover {
+  opacity: 0.7;
+}
+.header .proj {
+  color: #ff4a40;
+}
+.header .rectangle1 {
+  width: 150px;
+  height: 40px;
+  border: 4px solid #ff4a40;
+  position: absolute;
+  margin-left: 1150px;
+  z-index: 1;
+  margin-bottom: 13px;
+}
+.header .navlink {
+  color: #ff4a40;
+}
+.header .container-fluid1 {
+  display: flex;
+  position: relative;
+  gap: 77px;
+}
+.header .container-fluid1 .ban {
+  margin: 171 0px;
+  width: 646px;
+}
+.header .container-fluid1 .text-white {
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-weight: 400;
+  word-break: break-all;
+  padding-bottom: 15px;
+}
+.header .container-fluid1 .text-white1 {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  word-break: break-all;
+  color: white;
+  padding-top: 15px;
+}
+.header .container-fluid1 .devices {
+  background: url(../img/devices.png) no-repeat;
+  height: 608px;
+  width: 593px;
+  position: relative;
+}
+.header .container-fluid1 .tw2 {
+  text-decoration: none;
+  color: #ff4a40;
+  font-family: "Open Sans", system-ui;
+  margin: 0 15px;
+}
+.header .container-fluid1 .start1 {
+  z-index: 5;
+  margin-left: 10px;
+  width: 130px;
+}
+.header .container-fluid1 .tw2 {
+  z-index: 15;
+  width: 130px;
+}
+.header .container-fluid1 .start1:hover {
+  opacity: 0.7;
+  z-index: 5;
+}
+.header .container-fluid1 .tw2:hover {
+  opacity: 0.7;
+  z-index: 5;
+}
+.header .container-fluid1 .rectangle2 {
+  width: 170px;
+  height: 40px;
+  border: 4px solid #ff4a40;
+  padding-bottom: 10px;
+  margin: -30 0px;
+  z-index: 1;
+}
+.header .container-fluid1 .rectangle2 .arrowO {
+  background: url(../img/arrowO.png) no-repeat;
+  width: 17px;
+  height: 17px;
+  position: relative;
+  margin: 6 130px;
+}
+
+.section {
+  margin-top: 225px;
+  display: flex;
+}
+.section .voz {
+  font-weight: bold;
+  font-size: 54px;
+  font-family: "Open Sans", system-ui;
+}
+.section .fif {
+  height: 600px;
+  display: flex;
+  margin: 0;
+  gap: 50px;
+}
+.section .fif .dev {
+  background: url(../img/dev.png);
+  width: 594px;
+  height: 600px;
+}
+.section .fif .mark {
+  width: 593px;
+  background: white;
+  margin: -18 0px;
+  height: 600px;
+}
+.section .fif .mark .udob {
+  font-weight: bolder;
+  font-size: 36px;
+  font-family: "Open Sans", system-ui;
+  gap: 30px;
+  margin: 0;
+}
+.section .fif .mark .lis {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 30 25px;
+}
+.section .fif .mark .markup1 {
+  width: 37px;
+  height: 2px;
+  background: url(../img/markup.png) no-repeat;
+  position: absolute;
+  margin: 10 -58px;
+}
+.section .fif .mark .list {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+.section .fif1 {
+  display: flex;
+  height: 380px;
+  margin-top: 100px;
+  gap: 30px;
+}
+.section .fif1 .spis {
+  width: 593px;
+  gap: 30px;
+}
+.section .fif1 .spis .int {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 600;
+}
+.section .fif1 .spis .lis1 {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 22px;
+  margin-top: 30px;
+  width: 513px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+.section .fif1 .spis .lis1 .markup {
+  width: 37px;
+  height: 2px;
+  background: url(../img/markup.png);
+  position: absolute;
+  margin: 10 -58px;
+}
+.section .fif1 .spis .more {
+  display: flex;
+  width: 227px;
+  height: 47px;
+  margin-top: 34px;
+}
+.section .fif1 .spis .more .more1 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.section .fif1 .spis .more .more1:hover {
+  opacity: 0.7;
+}
+.section .fif1 .spis .more .more_1 {
+  width: 20px;
+  height: 20px;
+  background: url(../img/arrow.png) no-repeat;
+  margin: 5 10;
+}
+.section .fon {
+  background: url(../img/system.png) no-repeat;
+  width: 599px;
+  gap: 30px;
+}
+.section .fif2 {
+  margin-top: 100px;
+  display: flex;
+  height: 630px;
+  gap: 30px;
+}
+.section .fif2 .adaptive {
+  background: url(../img/adaptive.png) no-repeat;
+  width: 580px;
+}
+.section .fif2 .texth {
+  width: 611px;
+}
+.section .fif2 .texth .adap {
+  text-align: left;
+  margin: 0 20px;
+}
+.section .fif2 .texth .ad {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans";
+  list-style-type: none;
+  width: 421px;
+  margin: 30 34px;
+}
+.section .fif2 .markup2 {
+  background: url(../img/markup.png);
+  width: 37px;
+  height: 2px;
+  position: absolute;
+  margin: 10 -58px;
+}
+.section .fif3 {
+  margin-top: 100px;
+  height: 600px;
+  gap: 30px;
+  display: flex;
+}
+.section .fif3 .textw {
+  width: 598px;
+}
+.section .fif3 .textw .lic_1 {
+  list-style-type: none;
+  margin: 30 30px;
+  gap: 22px;
+}
+.section .fif3 .textw .list_lc {
+  width: 380px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans";
+  margin: 45 0px;
+  white-space: none;
+}
+.section .fif3 .textw .more3 {
+  display: flex;
+  width: 227px;
+  height: 47px;
+}
+.section .fif3 .textw .more3 .more3 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: 0 35px;
+}
+.section .fif3 .textw .more3 .more3:hover {
+  opacity: 0.7;
+}
+.section .fif3 .textw .more3 .more_3 {
+  width: 20px;
+  height: 20px;
+  background: url(../img/arrow.png) no-repeat;
+  margin: 5 -110px;
+}
+.section .fif3 .markup3 {
+  background: url(../img/markup.png) no-repeat;
+  width: 37px;
+  height: 2px;
+  margin: -10 -58px;
+}
+.section .fif3 .lc_dev {
+  background: url(../img/lcdev.png) no-repeat;
+  width: 599px;
+  height: 600px;
+}
+.section .fif4 {
+  display: flex;
+  height: 380px;
+  margin-top: 100px;
+}
+.section .fif4 .textw1 {
+  width: 593px;
+}
+.section .fif4 .textw1 .custom {
+  font-weight: bolder;
+  font-size: 36px;
+  font-family: "Open Sans", system-ui;
+  gap: 30px;
+  margin: 0;
+}
+.section .fif4 .textw1 .ulcust {
+  margin-top: 30px;
+  width: 504px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+.section .fif4 .textw1 .licust {
+  width: 504px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+.section .fif4 .textw1 .markup4 {
+  background: url(/img/markup.png);
+  width: 37px;
+  height: 2px;
+  margin: -10 -58px;
+}
+.section .fif4 .spos {
+  background: url(/img/pic.png);
+  width: 588px;
+  height: 380px;
+}
+.section .end {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+.section .end .rectangle21 {
+  width: 199px;
+  height: 47px;
+  border: 4px solid #ff4a40;
+  z-index: 1;
+  margin-right: 150px;
+}
+.section .end .rectangle21 .starts {
+  text-decoration: none;
+  width: 190px;
+  height: 47px;
+  position: absolute;
+  z-index: 5;
+}
+.section .end .rectangle21 .starts .starts1 {
+  width: 170px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #ff4a40;
+  z-index: 5;
+  padding-right: 25px;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+.section .end .arrow222 {
+  background: url(/img/arrowO.png) no-repeat;
+  width: 20px;
+  height: 18px;
+  margin: 11 155px;
+}
+.section .end .starts:hover {
+  opacity: 0.7;
+}
+.section .end .arrow222:hover {
+  opacity: 0.7;
+}/*# sourceMappingURL=main.css.map */
